@@ -9,11 +9,13 @@
     <body>
         <form method="post">
             <h1>Data collection form</h1>
-            <input type="text" name="firstname" id="firstname" placeholder="First name">
-            <input type="text" name="lastname" id="lastname" placeholder="Last name">
-            <input type="email" name="email" id="email" placeholder="E-mail">
-            <input type="tel" name="tel" id="tel", placeholder="Phone">
+            <span id="errbox"></span>
+            <input type="text" name="firstname" id="firstname" placeholder="First name" required>
+            <input type="text" name="lastname" id="lastname" placeholder="Last name" required>
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
+            <input type="tel" name="tel" id="tel", placeholder="Phone" required>
             <button type="submit">Submit</button>
         </form>
+        <script src="{{url_for("static", filename='script.js')}}"></script>
     </body>
 </html>
