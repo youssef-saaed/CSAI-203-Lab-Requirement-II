@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data Collection Form</title>
+        <link rel="stylesheet" href="{{url_for("static", filename='style.css')}}">
+    </head>
+    <body>
+        <form method="post">
+            <h1>Data collection form</h1>
+            <input type="text" name="firstname" id="firstname" placeholder="First name">
+            <input type="text" name="lastname" id="lastname" placeholder="Last name">
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <input type="tel" name="tel" id="tel", placeholder="Phone">
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
