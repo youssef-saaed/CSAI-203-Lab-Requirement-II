@@ -1,5 +1,5 @@
 # CSAI-203-Lab-Requirement-II
-This is the deliverable of the second lab of the "Intro to software engineering" course. It is a simple flask web app that collect data from the user and display the data in another page.
+This is the deliverable of the second lab of the "Intro to software engineering" course. It is a simple flask web app that collect data from the user, validating data entry, and display the data in another page.
 ## How to setup and run
 1. Install **python** and **git** to your machine if not installed
 2. Install **flask** module by writing this command in your terminal ```pip install flask```
